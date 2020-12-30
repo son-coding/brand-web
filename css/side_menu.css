@@ -1,0 +1,51 @@
+header .open_btn{
+  cursor: pointer;
+  font-size: 17pt;
+  position: relative;
+  left:50px;
+}
+
+body #side_menu{
+  background-color: black;
+  height: 100%;
+  width:0;
+  position: fixed;
+  z-index: 10;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+body #side_menu a{
+  padding:10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 15pt;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+body #side_menu a:hover{
+  color:red;
+}
+
+body #side_menu .close_btn{
+  position: absolute;
+  top:0;
+  right:25px;
+  font-size: 30pt;
+  /* margin-left: 100px; */
+}
+
+body #overlay{
+  height: 100%;
+  width:0;
+  transition: 0.5s;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9;
+  opacity: 90%;
+}

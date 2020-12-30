@@ -1,0 +1,172 @@
+/* 레이아웃 제외한 형태 모습 반영 */
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+header{
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+header .access input{
+  padding: 5px;
+  background-color: black;
+  color:white;
+  font-weight: bold;
+  font-size: 12pt;
+  border-radius: 5px;
+  outline:none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header .access input:hover{
+  background-color: white;
+  color:black;
+}
+
+header .logo img{
+  width:100%;
+  margin-top:30px;
+}
+
+section .container1 .catch_phrase{
+  font-size:30pt;
+  /* font-weight: bold; */
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+section .container1 .catch_phrase #hidden{
+  color:white;
+}
+
+.text_shadow{
+  text-shadow: 0 0 10px red;
+}
+
+section .container1 .main img{
+  width:100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+section .container1 .main img:hover{
+  box-shadow:0 0 10px black;
+}
+
+section .container2 .dynamic img{
+  width: 100%;
+  height: 100%;
+}
+
+section h1 {
+  font-size: 30pt;
+  margin-bottom:10px;
+}
+
+section .container3{
+  border: 2px dashed black;
+}
+
+section .container3 .full_set{
+  border-top: 2px dashed black;
+}
+
+section .container3 a input{
+  width:200px;
+  height:40px;
+  font-size:13pt;
+  font-weight: bold;
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+  outline: none;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+section .container3 a input:hover{
+  background-color: white;
+  color:black;
+}
+
+section .container3 .full_set .list .item img{
+  width: 100%;
+  height:100%;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+section .container3 .full_set .list .item img:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 10px black;
+}
+
+section .container3 .full_set .list .buy input{
+  width:100%;
+  height: 50px;
+  font-size:15pt;
+  font-weight: bold;
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+section .container3 .full_set .list .buy input:hover{
+  background-color: white;
+  color:black;
+}
+
+section .container4 .trend img{
+  width:100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+section .container4 .trend img:hover{
+  box-shadow: 0 0 10px black;
+}
+
+
+section .container4 .trend input{
+  text-align: center;
+  width:120px;
+  height:40px;
+  font-size:13pt;
+  font-weight: bold;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  outline: none;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+section .container4 .trend input:hover{
+  background-color: gray;
+}
+
+footer{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
+footer ul li a {
+  font-size: 20pt;
+  font-weight: bold;
+  color:black;
+  transition: 0.3s;
+
+}
+
+footer ul li a:hover {
+  text-shadow: 0 0 10px black;
+  color:white;
+}
